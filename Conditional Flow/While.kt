@@ -26,8 +26,7 @@ fun main() {
     while (value >= 0) { // This condition is always true so it will run upto infinity. 
         println(value)  // This will heat your pc, Stay careful!
         value ++ 
-        if (value == 1000) {
-            value++ 
+        if (value == 1000) { 
             break  // This syntax will stop the loop at 999, this problem will be solved. 
         }
     }
