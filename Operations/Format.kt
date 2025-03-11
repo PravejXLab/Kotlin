@@ -18,7 +18,16 @@ fun main() {
     // Number Formatting 
     val formatter = DecimalFormat("#,###.00") 
     val number = 655123456.7890  
-    println(formatter.format(number))  
+    println(formatter.format(number))
+    println()  // Just to Add an space  
+
+
+    // print column wise
+    println("Name\tAge\tCity") 
+    println("Mahoan\t16\tMumbai") 
+    println("Angel\t18\tPatna") 
+    println("Rehman\t22\tDelhi") 
+    println()  // Just for a line break.
 
 
     // Aligning text with Padding 
